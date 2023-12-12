@@ -1,0 +1,85 @@
+a {
+    color: white; 
+}
+
+body {
+    background-color: #242424;
+}
+
+footer{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: white; 
+    padding-left: 10%;
+    padding-right: 10%; 
+    background-color: rgb(24, 24, 24);
+}
+
+h1 { 
+    text-align: center;
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+h5 {
+    text-align: left;
+}
+
+
+.bg-white {
+    color: bleck; 
+    background-color: whitesmoke;
+}
+
+.navbar {
+    background-color: #242424;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.title {
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+    text-align: center;
+    background-color: #567b7e;
+}
+
+.txt-container {
+    background-color: white;
+}
+
+.grad 
+    {
+        background: linear-gradient(56deg, #568277, #567782,#88329c, #f8821f);
+        background-size: 800% 800%;
+    
+        -webkit-animation: AnimationName 60s ease infinite;
+        -moz-animation: AnimationName 60s ease infinite;
+        animation: AnimationName 60s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+.spacer {
+    height: 10vh; 
+}
+
